@@ -78,8 +78,8 @@ SOFTWARE.
   </j:invoke>
   <f:radioBlock title="${%jenkins.jobconfig.zap.session.load.radioblock.label}" name="autoLoadSession" value="true" checked="${instance == null || instance.autoLoadSession == true}" inline="true">
     <f:entry title=""></f:entry>
-    <f:entry title="${%jenkins.jobconfig.zap.session.load.filename.dropdownlist.label}" field="loadSession">
-      <f:select />
+    <f:entry title="${%jenkins.jobconfig.zap.session.load.filename.textbox.label}" field="loadSession">
+      <f:textbox />
     </f:entry>
   </f:radioBlock>
   <f:radioBlock title="${%jenkins.jobconfig.zap.session.persist.radioblock.label}" name="autoLoadSession" value="false" checked="${instance.autoLoadSession == false}" inline="true">
